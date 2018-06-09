@@ -1,6 +1,6 @@
 platform :ios, '7.0'
 
-target "Zype" do
+target "12th House Media" do
 pod 'SVProgressHUD' #progress indicator
 pod 'SDWebImage' #image downloading/caching
 pod 'Valet' #keychain wrapper 

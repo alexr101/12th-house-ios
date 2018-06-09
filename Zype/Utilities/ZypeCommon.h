@@ -11,10 +11,10 @@
 #pragma mark - Client Settings
 
 //Main app configuration for connecting to Zype property
-#define kOAuth_ClientId @"efff34ee145c7bdc8a8408a339571005f8bcdf2fb0ae5dfd0dbb248188daaf54"
-#define kOAuth_ClientSecret @"0fdedb3cf72afa6b37fabfbe100e2a2db5d6f4ecdbfe71eb53c223d722201a1d"
-#define kAppKey @"HQokZlmb_bsw1uYYCEVP5UQis08D9tDJgRrCtAStwJ7HmjBovVAMNz1WjpNJE-KU"
-#define kRootPlaylistId @"577e65c85577de0d1000c1ee"
+#define kOAuth_ClientId @"fa473ea7f6c885bfeba6514eb69ff4a9dcfcd7297abeccf06e79e5f4b6dd377a"
+#define kOAuth_ClientSecret @"f9916ad974647f33fa4928aaa543e3118120c4e20365a3e13d6393094ff65b28"
+#define kAppKey @"-p8fyGMdtSh2bJgICazTxvJ6vfbmEQOI2WutQSCcge2KxuWFtXuOAh1jv8RDc8nf"
+#define kRootPlaylistId @"5ad7b7abb0cc5b11f0000fa2"
 
 //OneSignal configuration for Push notifications
 #define kOneSignalNotificationsKey @""

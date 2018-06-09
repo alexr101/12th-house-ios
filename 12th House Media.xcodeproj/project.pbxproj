@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		654D88C2798963BB588CD3FB /* libPods-Zype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 764C0AB300D78554EAEF60E3 /* libPods-Zype.a */; };
 		780AC6A31BDFD284007F1119 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BB52881A76D7D100E901F1 /* AppDelegate.m */; };
 		780AC6B41BDFD284007F1119 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BB52851A76D7D100E901F1 /* main.m */; };
 		780AC6D21BDFD284007F1119 /* ZypeDBMappingModel.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = B96FF88A1B17B535007CA447 /* ZypeDBMappingModel.xcmappingmodel */; };
@@ -132,6 +131,7 @@
 		A1B3C4172032268300784F64 /* ACAnalyticsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B3C4162032268300784F64 /* ACAnalyticsManager.m */; };
 		A1B3C41E203227E100784F64 /* libAKAMMediaExtensions-AV.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B3C41B203227E100784F64 /* libAKAMMediaExtensions-AV.a */; };
 		A1B3C420203227E100784F64 /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = A1B3C41D203227E100784F64 /* ReadMe */; };
+		AF4DAEE76C6D3FCF25345F36 /* libPods-12th House Media.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F489B5F8287AF566FB0607A7 /* libPods-12th House Media.a */; };
 		E1C884AD20B4969F008D9184 /* UserPreferenceCellDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C884AC20B4969F008D9184 /* UserPreferenceCellDataSource.m */; };
 		E1C884B020B496EF008D9184 /* UserPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C884AF20B496EF008D9184 /* UserPreferences.m */; };
 		E1C884B320B49718008D9184 /* UserPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C884B220B49718008D9184 /* UserPreferencesViewController.m */; };
@@ -168,7 +168,7 @@
 /* Begin PBXFileReference section */
 		0DD0AEA7B5AE6D1C598FD3F3 /* Pods-Zype.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zype.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Zype/Pods-Zype.debug.xcconfig"; sourceTree = "<group>"; };
 		764C0AB300D78554EAEF60E3 /* libPods-Zype.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Zype.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		780AC7081BDFD284007F1119 /* Zype TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zype TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		780AC7081BDFD284007F1119 /* 12th House Media TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "12th House Media TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		963FC4151AC9C54700CD2C19 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		963FC41B1AC9C56600CD2C19 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		9677B76A1ACB11FC0043515D /* libAdIdAccess.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdIdAccess.a; sourceTree = "<group>"; };
@@ -177,6 +177,8 @@
 		9677B7741ADC46020043515D /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		9677B7761ADC46090043515D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		9677B7781ADC46110043515D /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		9A93C854E3779E79A0241D69 /* Pods-12th House Media.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-12th House Media.debug.xcconfig"; path = "Pods/Target Support Files/Pods-12th House Media/Pods-12th House Media.debug.xcconfig"; sourceTree = "<group>"; };
+		9C5998A5A89617DAFEFA65C4 /* Pods-12th House Media.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-12th House Media.release.xcconfig"; path = "Pods/Target Support Files/Pods-12th House Media/Pods-12th House Media.release.xcconfig"; sourceTree = "<group>"; };
 		A10797471D4015F700F84B61 /* PlaylistCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlaylistCollectionViewCell.h; path = Views/PlaylistCollectionViewCell.h; sourceTree = "<group>"; };
 		A10797481D4015F700F84B61 /* PlaylistCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlaylistCollectionViewCell.m; path = Views/PlaylistCollectionViewCell.m; sourceTree = "<group>"; };
 		A10797491D4015F700F84B61 /* PlaylistCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PlaylistCollectionViewCell.xib; path = Views/PlaylistCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -379,6 +381,7 @@
 		F1BB52CA1A7819BC00E901F1 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Regular.ttf"; path = "Fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
 		F1BB52CB1A7819BC00E901F1 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Semibold.ttf"; path = "Fonts/OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
 		F1BB52CC1A7819BC00E901F1 /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-SemiboldItalic.ttf"; path = "Fonts/OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		F489B5F8287AF566FB0607A7 /* libPods-12th House Media.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-12th House Media.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA09369720238B88009E14E3 /* MediaItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MediaItemView.h; path = Views/MediaItemView.h; sourceTree = "<group>"; };
 		FA09369820238B88009E14E3 /* MediaItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MediaItemView.m; path = Views/MediaItemView.m; sourceTree = "<group>"; };
 		FA1940321FCC75AF005CE292 /* PlaylistCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PlaylistCollectionCell.h; path = Views/PlaylistCollectionCell.h; sourceTree = "<group>"; };
@@ -446,8 +449,8 @@
 				780AC6EA1BDFD284007F1119 /* WebKit.framework in Frameworks */,
 				780AC6EB1BDFD284007F1119 /* QuartzCore.framework in Frameworks */,
 				780AC6EC1BDFD284007F1119 /* Security.framework in Frameworks */,
-				654D88C2798963BB588CD3FB /* libPods-Zype.a in Frameworks */,
 				A1B3C41E203227E100784F64 /* libAKAMMediaExtensions-AV.a in Frameworks */,
+				AF4DAEE76C6D3FCF25345F36 /* libPods-12th House Media.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -614,6 +617,7 @@
 				F176C9B51AA8B9770080E334 /* QuartzCore.framework */,
 				F176C9A51AA7963A0080E334 /* Security.framework */,
 				764C0AB300D78554EAEF60E3 /* libPods-Zype.a */,
+				F489B5F8287AF566FB0607A7 /* libPods-12th House Media.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -647,7 +651,7 @@
 		F1BB52811A76D7D100E901F1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				780AC7081BDFD284007F1119 /* Zype TV.app */,
+				780AC7081BDFD284007F1119 /* 12th House Media TV.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -874,6 +878,8 @@
 			children = (
 				0DD0AEA7B5AE6D1C598FD3F3 /* Pods-Zype.debug.xcconfig */,
 				A1D84BA0F72FFDAA8DEC35F6 /* Pods-Zype.release.xcconfig */,
+				9A93C854E3779E79A0241D69 /* Pods-12th House Media.debug.xcconfig */,
+				9C5998A5A89617DAFEFA65C4 /* Pods-12th House Media.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -881,9 +887,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		780AC69F1BDFD284007F1119 /* Zype */ = {
+		780AC69F1BDFD284007F1119 /* 12th House Media */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 780AC7051BDFD284007F1119 /* Build configuration list for PBXNativeTarget "Zype" */;
+			buildConfigurationList = 780AC7051BDFD284007F1119 /* Build configuration list for PBXNativeTarget "12th House Media" */;
 			buildPhases = (
 				675B4C01D45986A8FD14DF51 /* [CP] Check Pods Manifest.lock */,
 				780AC6A11BDFD284007F1119 /* Sources */,
@@ -897,9 +903,9 @@
 			);
 			dependencies = (
 			);
-			name = Zype;
+			name = "12th House Media";
 			productName = ACShow;
-			productReference = 780AC7081BDFD284007F1119 /* Zype TV.app */;
+			productReference = 780AC7081BDFD284007F1119 /* 12th House Media TV.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -927,7 +933,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F1BB527B1A76D7D100E901F1 /* Build configuration list for PBXProject "Zype" */;
+			buildConfigurationList = F1BB527B1A76D7D100E901F1 /* Build configuration list for PBXProject "12th House Media" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -940,7 +946,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				780AC69F1BDFD284007F1119 /* Zype */,
+				780AC69F1BDFD284007F1119 /* 12th House Media */,
 			);
 		};
 /* End PBXProject section */
@@ -1008,13 +1014,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-12th House Media/Pods-12th House Media-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zype/Pods-Zype-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-12th House Media/Pods-12th House Media-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		675B4C01D45986A8FD14DF51 /* [CP] Check Pods Manifest.lock */ = {
@@ -1023,13 +1032,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-12th House Media-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		780AC7031BDFD284007F1119 /* ShellScript */ = {
@@ -1043,7 +1055,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
-			shellScript = "${PODS_ROOT}/Fabric/run 83465ef9de45bd3ccc1aeaa066ed7d13dd96a1e4 0b81dd3d4789d7cebb8ee4d77fe25dcaabbf0f8cb55d8c6f7392d4b798e8c57f";
+			shellScript = "//${PODS_ROOT}/Fabric/run 83465ef9de45bd3ccc1aeaa066ed7d13dd96a1e4 0b81dd3d4789d7cebb8ee4d77fe25dcaabbf0f8cb55d8c6f7392d4b798e8c57f";
 		};
 		7A61F1D41D8E4610CCB40A8B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1057,7 +1069,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zype/Pods-Zype-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-12th House Media/Pods-12th House Media-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1191,7 +1203,7 @@
 /* Begin XCBuildConfiguration section */
 		780AC7061BDFD284007F1119 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0DD0AEA7B5AE6D1C598FD3F3 /* Pods-Zype.debug.xcconfig */;
+			baseConfigurationReference = 9A93C854E3779E79A0241D69 /* Pods-12th House Media.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1213,8 +1225,8 @@
 					"$(PROJECT_DIR)/Zype",
 					"$(PROJECT_DIR)/Zype/Libraries/AkamMAlibs",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zype.sandbox;
-				PRODUCT_NAME = "Zype TV";
+				PRODUCT_BUNDLE_IDENTIFIER = com.12thhouse.apple;
+				PRODUCT_NAME = "12th House Media TV";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
@@ -1227,7 +1239,7 @@
 		};
 		780AC7071BDFD284007F1119 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1D84BA0F72FFDAA8DEC35F6 /* Pods-Zype.release.xcconfig */;
+			baseConfigurationReference = 9C5998A5A89617DAFEFA65C4 /* Pods-12th House Media.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1249,8 +1261,8 @@
 					"$(PROJECT_DIR)/Zype",
 					"$(PROJECT_DIR)/Zype/Libraries/AkamMAlibs",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zype.sandbox;
-				PRODUCT_NAME = "Zype TV";
+				PRODUCT_BUNDLE_IDENTIFIER = com.12thhouse.apple;
+				PRODUCT_NAME = "12th House Media TV";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
@@ -1369,7 +1381,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		780AC7051BDFD284007F1119 /* Build configuration list for PBXNativeTarget "Zype" */ = {
+		780AC7051BDFD284007F1119 /* Build configuration list for PBXNativeTarget "12th House Media" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				780AC7061BDFD284007F1119 /* Debug */,
@@ -1378,7 +1390,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F1BB527B1A76D7D100E901F1 /* Build configuration list for PBXProject "Zype" */ = {
+		F1BB527B1A76D7D100E901F1 /* Build configuration list for PBXProject "12th House Media" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F1BB52A41A76D7D100E901F1 /* Debug */,
