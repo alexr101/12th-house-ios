@@ -919,7 +919,7 @@
 				ORGANIZATIONNAME = Zype;
 				TargetAttributes = {
 					780AC69F1BDFD284007F1119 = {
-						DevelopmentTeam = 66JU87JGLE;
+						DevelopmentTeam = FA5XQFQSTN;
 						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -1210,7 +1210,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: ZYPE MEDIA GROUP LLC (66JU87JGLE)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = FA5XQFQSTN;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1246,7 +1246,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: ZYPE MEDIA GROUP LLC (66JU87JGLE)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = FA5XQFQSTN;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
