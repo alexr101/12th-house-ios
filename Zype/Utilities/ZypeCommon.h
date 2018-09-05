@@ -22,10 +22,10 @@
 #define kGoogleAnalyticsTracker @""
 
 //Social links on settings screen
-#define kACFacebook @"https://www.facebook.com/<your_branch>"
-#define kACWeb @"http://www.<your_branch>/"
-#define kACInstagram @"http://www.instagram.com/<your_branch>"
-#define kACTwitter @"https://twitter.com/<your_branch>"
+#define kACFacebook @"https://www.facebook.com/highvibetv/?ref=br_rs"
+#define kACWeb @"http://www.highvibe.tv"
+#define kACInstagram @"http://www.instagram.com/"
+#define kACTwitter @"https://twitter.com/"
 
 #define kAutoplay YES
 
@@ -36,6 +36,7 @@
 #define kAppAppleTVLayout NO
 
 //Show/Hide titles on thumbnails for playlist views on iPhone
+#define kHidePlaylistTitles NO
 #define kAppAppleTVLayoutShowThumbanailTitle NO
 
 //Features Configuration
@@ -194,7 +195,7 @@ static const CGSize IpadPosterLayoutSize = {120, 180};
 #define kSettingKey_DownloadAudio @"downloadAudio"
 #define kSettingKey_DownloadVideo @"downloadVideo"
 #define kSettingKey_SubscribeUrl @"settingSubscribeUrl"
-#define kSettingKey_SubscribeMessage @"Please subscribe to get full access to the Luis Show!"
+#define kSettingKey_SubscribeMessage @"Please subscribe to get full access to the video!"
 #define kSettingKey_SubscribeButtontitle @"Subscribe"
 #define kSettingKey_SubscribeCancelButtonTitle @"Not Now"
 #define kSettingKey_SubscribeTitleMessage @"Please Subscribe"
